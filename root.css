@@ -1,0 +1,18 @@
+html {
+    font-size: 10px;
+}
+body, html {
+    min-height: 100%;
+}
+* {margin: 0;
+    box-sizing: border-box;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2b2430;
+    font-family: OpenSans,Open Sans,system,-apple-system,BlinkMacSystemFont,Roboto,Arial,FreeSans,sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
