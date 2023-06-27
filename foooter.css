@@ -1,0 +1,15 @@
+.sub-footer{
+    min-height: 72px;
+    background-color: #F8F7FA;
+}
+.main-footer{
+    min-height: 426px;
+    background-color: #230F33;
+}
+.sup-footer{
+    min-height: 256px;
+    background-color: #F8F7FA;
+}
+.end{
+    min-height: 82px;
+}
