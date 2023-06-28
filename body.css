@@ -102,7 +102,7 @@ justify-items: center;}
   }
   .price{display: grid;
   grid-template-columns: repeat(6,1fr);}
-.price-https://cdn.discordapp.com/attachments/1094366052516900874/1123568833702146169/Screenshot_219.pnghot_218.png{
+.price-main{
   color: #707174!important;
     font-size: 20px;
     font-weight: 400;
