@@ -1,7 +1,8 @@
 .main{
-    margin-left: 20%;
-    margin-right: 20%;
-    padding: 1%;
+    
+    padding-left: 16%;
+    padding-right: 16%;
+    margin-top: 12px;
 
    
 }
@@ -101,7 +102,7 @@ justify-items: center;}
   }
   .price{display: grid;
   grid-template-columns: repeat(6,1fr);}
-.price-main{
+.price-https://cdn.discordapp.com/attachments/1094366052516900874/1123568833702146169/Screenshot_219.pnghot_218.png{
   color: #707174!important;
     font-size: 20px;
     font-weight: 400;
