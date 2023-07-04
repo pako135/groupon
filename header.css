@@ -1,11 +1,15 @@
 .ul1{list-style-type: none;
   z-index: 1;
  
-padding: 0;position: fixed;
+padding: 0;position: sticky;
+top: 0;
 background-color: #230f335d;
 padding-bottom: 10px;line-height: 40px;
 }
-
+.top{
+  z-index: 0;
+  position: absolute;
+}
 .nav{
     font-size: 12px;
     justify-content: center;

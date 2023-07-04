@@ -6,6 +6,9 @@
 
    
 }
+.mid{
+  margin-top: 240px;
+}
 .r1{display: grid;
     gap: 8px;
 grid-template-columns: repeat(3,1fr);

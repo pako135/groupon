@@ -122,19 +122,26 @@ grid-template-columns: 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5
     text-align: right;
 }
 .dropbtn1 {
-    background-color: #3498DB;
-    color: white;
+    width: 200px;
+    padding-left: 16px;
+    background-color: #ffffff;
+    color: rgb(16, 16, 16);
     padding: 16px;
     font-size: 16px;
-    border: none;
+    border: 1px solid black;
+    border-radius: 5%;
     cursor: pointer;
   }
+  .dropbtn1:focus{
+    border-color: #005eab;
+  }
   
-  .dropbtn1:hover, .dropbtn1:focus {
-    background-color: #2980B9;
+  .dropbtn1:hover {
+    background-color: #e8e8e8;
   }
   
   .dropdown1 {
+    
     position: relative;
     display: inline-block;
   }
@@ -145,7 +152,7 @@ grid-template-columns: 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5
     overflow: scroll;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 220px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -157,10 +164,40 @@ grid-template-columns: 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5fr 1.5fr 0.5
     text-decoration: none;
     display: block;
   }
+  .dropdown-content1 a:hover{
+    background-color: #005eab;
+    color: #ddd;
+  }
   
-  .dropdown1 a:hover {background-color: #ddd;}
+  
   
   .show {
-    height: 100px;
+    height: 300px;
     overflow: scroll;
     display: block;}
+.QR{
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 85px 140px}
+    .QR1{
+        
+        margin-bottom: 20px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 200px 40px;
+        gap: 8px;}
+        
+.more{
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #ededed;
+}
+.QR1 path{
+    fill: black;
+}
+.QR1 button{
+    border: 1px solid black;
+    border-radius: 4px;
+}
